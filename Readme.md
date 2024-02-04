@@ -41,11 +41,13 @@ Uses heuristics to guide the search and often finds the shortest path faster tha
 ### Floyd-Warshall Algorithm
 
 Computes the shortest paths between all pairs of nodes in a weighted graph with non-negative edge weights. This is a dynamic programming approach and guarantees finding all shortest paths, but can be memory-intensive for large graphs.
+It works for both directed and undirected
 
 **Limitations**
 1. High memory usage: Can be computationally expensive for large graphs due to storing all-pairs shortest paths.
 2. Not suitable for dynamic graphs: If your graph changes frequently, finding all-pairs shortest paths every time might be inefficient.
 3. Redundant computations: Many shortest paths might already be known from previous computations, but the algorithm recalculates them anyway.
+4. Does not work for graphs with -tive cycle
 
 ### Johnson's Algorithm:
 
