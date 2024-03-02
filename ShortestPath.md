@@ -56,4 +56,4 @@ I will list down the articles that I am going through.
 
 # Comparison
 
-!(Algo comparisons)[screenshots/comparison.png]
+![Algo comparisons](/screenshots/comparison.png)
