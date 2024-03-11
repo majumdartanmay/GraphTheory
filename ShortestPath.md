@@ -44,7 +44,8 @@ I will list down the articles that I am going through.
 3. Can handle -tive edges and by definition will have no -tive cycle since DAG. 
 
 ### BFS
-1. Works with undirected graph with unit weights. 
+1. Works with acyclic graphs with unit weights.
+2. Works for both directed + undirected
 
 ## All source
 
